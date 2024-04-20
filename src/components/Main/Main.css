@@ -1,0 +1,368 @@
+.card {
+    width: 1180px;
+    height: 524px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: #0046EA;
+    border-radius: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image: url(../../Images/Mask\ group.png);
+}
+
+.card_in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    left: 0;
+    height: 80%;
+    width: 640px;
+    text-align: left;
+    margin-left: 40px;
+    color: #ffffff;
+}
+
+.card_img {
+    transform: translateX(-212px);
+}
+
+.card_btn {
+    width: 405px;
+    height: 82px;
+    transform: translateX(-25px);
+    border-radius: 13px;
+    border: none;
+    transform: translateX(-120px);
+    color: #4D7DEE;
+    font-size: 20px;
+}
+
+.learn {
+    width: 1183px;
+    height: 356px;
+    margin: auto;
+    margin-top: 150px;
+
+}
+
+.learn h1 {
+    color: #2560EC;
+    font-size: 50px;
+}
+
+.skill {
+    width: 360px;
+    height: 106px;
+    border-radius: 15px;
+    background-color: #0046EA;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 1100px;
+    margin: auto;
+}
+
+.main_icon1 {
+    font-size: 60px;
+}
+
+.skill p {
+    width: 220px;
+    text-align: left;
+}
+
+.skill h1 {
+    color: #fff;
+}
+
+.teachers .techer_h1 {
+    color: #0046EA;
+    font-size: 50px;
+}
+
+.teach {
+    width: 280px;
+    height: 347px;
+    /* border: 2px solid red;    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #2560EC;
+}
+
+.teacher {
+    display: flex;
+    margin: auto;
+    width: 1180px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teach p {
+    transform: translateY(-35px);
+}
+
+.person {
+    width: 380px;
+    height: 182px;
+    /* border: 2px solid red; */
+}
+
+.reviews1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1180px;
+    height: 301px;
+    margin: auto;
+}
+
+.person_div {
+    width: 380px;
+    height: 120px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    background: #4D7DEE;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+}
+
+.star {
+    color: #FFBE00;
+    font-size: 20px;
+}
+
+.person_div p {
+    width: 250px;
+    transform: translateY(-15px);
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 120px;
+    height: 21px;
+    transform: translateY(-23px);
+}
+
+.person_btn {
+    width: 380px;
+    height: 42px;
+    border-radius: 13px;
+    background-color: #4D7DEE;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.Reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Reviews h1 {
+    color: #0046EA;
+}
+
+.contact {
+    width: 1180px;
+    height: 465px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0046EA;
+    border-radius: 15px;
+}
+
+.text_contact {
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.letter {
+    width: 50%;
+    height: 100%;
+}
+
+.letter form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 75%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    height: 82px;
+    width: 447px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    width: 447px;
+    height: 90px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.name input {
+    width: 425px;
+    height: 46px;
+    font-size: 20px;
+    border: none;
+    padding: 0 15px;
+}
+
+.name label {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.number_inp {
+    width: 447px;
+    height: 46px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #fff;
+}
+
+.number_inp input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 90%;
+    border: none;
+    font-size: 20px;
+    padding: 0 15px;
+}
+
+.phone label:nth-child(1) {
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+}
+
+.contact_btn {
+    width: 447px;
+    height: 46px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.text_letter {
+    text-align: left;
+    width: 50%;
+    height: 70px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_letter p:nth-child(2) {
+    color: #ffffff;
+    margin-left: -50px;
+    margin-top: -10px;
+}
+
+.text_con1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+    /* border: 2px solid red; */
+    height: 23%;
+}
+
+.text_contact p {
+    transform: translateY(-45px);
+    font-size: 15px;
+}
+
+.text_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text_contact h3 {
+    transform: translateY(-20px);
+    text-align: left;
+}
+
+.text_con2 {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+    /* border: 2px solid red; */
+    height: 23%;
+}
+
+.text_con3 {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+    /* border: 2px solid red; */
+    height: 23%;
+}
+
+.text_con4 {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    color: #ffffff;
+    flex-direction: column;
+    text-align: left;
+    /* border: 2px solid red; */
+    height: 23%;
+}
